@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.post{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.post__button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 3px;
+
+}
+.postList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
